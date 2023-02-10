@@ -21,7 +21,7 @@ p.ping("https://google.com")
     console.error("Ping failed: " + data);
   })
 //Teste Ping
-p.ping("http://172.31.49.249")
+p.ping("http://172.31.49.249/dell_login.html")
   .then(data => {
     console.log("Successful ping: " + data);
     document.getElementById('ping-teste').innerText = `Ping de ${data} ms`
