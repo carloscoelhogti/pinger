@@ -20,5 +20,13 @@ p.ping("https://google.com")
   .catch(data => {
     console.error("Ping failed: " + data);
   })
-
+//Teste Ping
+p.ping("http://172.31.49.249")
+  .then(data => {
+    console.log("Successful ping: " + data);
+    document.getElementById('ping-teste').innerText = `Ping de ${data} ms`
+  })
+  .catch(data => {
+    console.error("Ping failed: " + data);
+  })
   export default Ping
