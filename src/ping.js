@@ -11,7 +11,7 @@ p.ping("https://github.com", function(err, data) {
   document.getElementById("ping-github").innerHTML = `Ping de ${data} ms`
 });
 
-// You may use Promise if the browser supports ES6
+/* You may use Promise if the browser supports ES6
 p.ping("https://google.com")
   .then(data => {
     console.log("Successful ping: " + data);
@@ -19,7 +19,7 @@ p.ping("https://google.com")
   })
   .catch(data => {
     console.error("Ping failed: " + data);
-  })
+  })*/
 //Teste Ping
 p.ping("http://172.31.49.249/dell_login.html")
   .then(data => {
