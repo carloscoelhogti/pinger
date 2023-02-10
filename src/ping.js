@@ -20,11 +20,11 @@ p.ping("https://google.com")
   .catch(data => {
     console.error("Ping failed: " + data);
   })*/
-//Teste Ping
+//Ping Dell
 p.ping("https://www.dell.com")
   .then(data => {
     console.log("Successful ping: " + data);
-    document.getElementById('ping-teste').innerText = `Ping de ${data} ms`
+    document.getElementById('ping-dell').innerText = `Ping de ${data} ms`
   })
   .catch(data => {
     console.error("Ping failed: " + data);
