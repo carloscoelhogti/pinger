@@ -13,8 +13,8 @@ function App() {
       <p id="ping-github">Git Aqui</p>
       <h1>Google</h1>
       <p id="ping-google">Google Aqui</p>
-      <h1>Teste Rede</h1>
-      <p id="ping-teste">Teste Rede</p>
+      <h1>Ping Dell</h1>
+      <p id="ping-dell">Ping Dell</p>
     </div>
   );
 }
